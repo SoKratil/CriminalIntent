@@ -26,7 +26,7 @@ class CrimeFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_crime, container, false)
         titleField = view.findViewById(R.id.crime_title) as EditText
         dateButton = view.findViewById(R.id.crime_date) as Button
-        solvedCheckBox = view.findViewById(R.id.crime_solved) as CheckBox
+        solvedCheckBox = view.findViewById(R.id.crime_solvedd) as CheckBox
         dateButton.apply {
             text = crime.date.toString()
             isEnabled = false
